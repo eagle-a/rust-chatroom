@@ -7,8 +7,7 @@ edition = "2021"
 
 [dependencies]
 fltk = { version = "^1.4.17", features = ["fltk-bundled"] }
-#![windows_subsystem]
 
-[profile.release]
-opt-level = 'z'
-lto = true
+#[profile.release]
+#opt-level = 'z'
+#lto = true

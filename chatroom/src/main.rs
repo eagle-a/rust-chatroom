@@ -1,9 +1,11 @@
-
 #![windows_subsystem = "windows"]
-mod uiapp;
 mod data;
 mod send_and_get;
 
+mod uiapp;
+mod ui_components;
 fn main() {
-    uiapp::app_login();
+  //  ui_components::login::training();
+
+    let a: bool = uiapp::ui_run();
 }

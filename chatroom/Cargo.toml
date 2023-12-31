@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 fltk = { version = "^1.4.17", features = ["fltk-bundled"] }
 
+fltk-theme = "0.7"
